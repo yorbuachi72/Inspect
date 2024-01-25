@@ -1,0 +1,78 @@
+body {
+    width: 300px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #124278;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+p {
+    color: #555;
+}
+
+#codeSnippets div, #historyList li {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.copyIcon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Additional styles for the new layout */
+#locatorContainer {
+    max-height: 200px;
+    overflow-y: auto; /* Enables scrolling */
+}
+
+#codeSnippets, #locatorHistory {
+    margin-top: 10px;
+}
+
+/* Style for the popup's HTML elements */
+#codeSnippetsSection, #historySection {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#codeSnippets, #historyList {
+    max-height: 150px; /* Adjust height as needed */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+#historyList {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+#historyList li {
+    cursor: pointer; /* Indicate items are clickable */
+    padding: 5px; /* Add some padding for list items */
+    border-bottom: 1px solid #ae1414; /* Add a separator between items */
+}
+
+#historyList li:hover {
+    background-color: #1c1276; /* Highlight list item on hover */
+}

@@ -1,0 +1,9 @@
+/* This CSS will be used to highlight elements on the page */
+/* CSS to visually highlight elements on the page during inspection */
+.highlightedElement {
+    border: 2px solid rgb(30, 0, 255) !important;  /* Red border for clear visibility */
+    cursor: pointer !important;        /* Change cursor to indicate clickable */
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5) !important; /* Soft glow for emphasis */
+    transition: all 0.2s ease !important; /* Smooth transition for highlighting effects */
+}
+
